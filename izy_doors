@@ -37,9 +37,6 @@ end
 local WarnPNG_Enemies = false
 local FullBright = false
 --------------------- RUN SERICES
-game:GetService("RunService").RenderStepped:Connect(function()
-    ga
-end)
 -------------------------------------------------------------------------
 local didRushSpawn = false
 spawn(function()
